@@ -1,0 +1,45 @@
+/* p{ 태그
+    color: red; 
+}
+
+#habbit{ /* id 값
+    color: blue;
+}
+
+.head{ /* .클래스 이름
+    color: green;
+}
+*/
+
+.head-title{
+    border:4px solid pink;
+    text-align: center;
+    width: 150px; /*vw, vh: 화면 크기 기준 상대적 크기, %는 원하는 비율*/
+    height: 200px;
+    display: flex; /*flexbox 만들어야 flex 사용 가능 */
+    flex-direction: column-reverse;
+    /*justify-content: 가로 정렬 */
+}
+
+.habbit1{
+    border:2px solid red;
+    font-size: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.author{
+    border:2px solid green;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /*align-items: 세로 정렬 */
+    justify-content: center;
+    gap: 20px;/*margin과 비슷하지만 인접한 요소와 띄울 땐 gap 사용 */
+}
+
+.movie{
+    border:2px solid red;
+    color: #474747;
+}

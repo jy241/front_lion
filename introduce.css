@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #494949;
+  color: white;
+  padding: 30px 0; /*배경*/
+  text-align: center;
+}
+
+.intro, .chart, .hobby {
+  margin: 30px auto; /*글씨 위아래*/
+  padding: 0 20px;
+}
+
+h2 { /*큰 글씨들*/
+  color: black;
+  border-bottom: 2px solid #ccc; /*나누는 선*/
+  padding-bottom: 5px;
+  /*text-align: center; 사용하면 중간정렬*/
+}
+
+table { /*표*/
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc; /*표 선*/
+  padding: 12px;
+  text-align: center;
+}
+
+th { /*표 배경*/
+  background-color: #f0f0f0;
+}
+
+ul { 
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0; /*푸터 배경*/
+  background-color: #8c83832f;
+}
