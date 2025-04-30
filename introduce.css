@@ -26,7 +26,7 @@ h2 { /*큰 글씨들*/
 
 table { /*표*/
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /*테이블 보더 간격 합치기*/
   margin-top: 15px;
 }
 
